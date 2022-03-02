@@ -1,6 +1,7 @@
 import React from 'react';
 import {Text, View} from 'react-native';
 import globalStyles from '../../../style';
+import {useAxios} from '../../logic/helpers/use-axios';
 
 const SettingsScreen = () => {
   return (
