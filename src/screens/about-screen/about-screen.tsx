@@ -14,7 +14,6 @@ const AboutScreen = () => {
         index < 100 && (
           <View key={index}>
             <Text>{photos.title}</Text>
-            <Text>{photos.title}</Text>
             <Image
               style={styles.image}
               source={{
